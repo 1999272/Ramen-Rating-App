@@ -24,5 +24,19 @@
         <div id="ramen-actions"></div> <!-- Buttons will be added dynamically -->
     </div>
 
-    <!-- Form to Add/Edit New Ramen -->
-    x
+    <!-- Form to Add/Edit New Ramen -->    <!--commit here-->
+    <div id="ramen-form-container">
+        <h2>Add/Edit Ramen</h2>
+        <form id="new-ramen-form">
+            <input type="text" id="name" placeholder="Ramen Name" required>
+            <input type="text" id="restaurant" placeholder="Restaurant" required>
+            <input type="url" id="image" placeholder="Image URL" required>
+            <input type="number" id="rating" placeholder="Rating (1-10)" min="1" max="10" required>
+            <input type="text" id="comment" placeholder="Comment" required>
+            <button type="submit">Save</button>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
