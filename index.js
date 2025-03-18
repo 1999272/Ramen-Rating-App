@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const ramens = [
         { id: 1, name: "Shoyu Ramen", restaurant: "Ichiran", image: "https://www.marionskitchen.com/wp-content/uploads/2019/05/Shoyu-Ramen3-1200x1500.jpg", rating: 5, comment: "Delicious!" },
         { id: 2, name: "Miso Ramen", restaurant: "Menya", image: "https://inquiringchef.com/wp-content/uploads/2022/11/Easy-Miso-Ramen_square-0723.jpg", rating: 4, comment: "Very flavorful!" },
-        { id: 3, name: "Tonkotsu Ramen", restaurant: "Ramen-ya", image: "tonkotsu.jpg", rating: 3, comment: "Rich broth!" }
+        { id: 3, name: "Tonkotsu Ramen", restaurant: "Ramen-ya", image: "https://www.seriouseats.com/thmb/IBikLAGkkP2QVaF3vLIk_LeNqHM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/rich-and-creamy-tonkotsu-ramen-broth-from-scratch-recipe-Diana-Chistruga-hero-6d318fadcca64cc9ac3e1c40fc7682fb.JPG", rating: 3, comment: "Rich broth!" }
     ];
     
     const ramenMenu = document.getElementById("ramen-menu");
