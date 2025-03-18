@@ -1,39 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ramen Rating App</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramen Rater</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Ramen Rating App</h1>
+    <h1>Ramen Rater</h1>
+    
+    <!-- Ramen Menu -->
+    <div id="ramen-menu"></div>
 
-  <div id="ramen-menu"></div>
+    <!-- Ramen Detail Display -->
+    <div id="ramen-detail">
+        <img id="ramen-image" src="" alt="Ramen Image">
+        <div class="ramen-overlay">
+            <h2 id="ramen-name"></h2>
+            <h3 id="ramen-restaurant"></h3>
+        </div>
+        <p>Rating: <span id="ramen-rating"></span></p>
+        <p>Comment: <span id="ramen-comment"></span></p>
+        <div id="ramen-actions"></div> <!-- Buttons will be added dynamically -->
+    </div>
 
-  <div id="ramen-detail">
-    <h2>Ramen Details</h2>
-    <p id="ramen-name"></p>
-    <p id="ramen-restaurant"></p>
-    <p id="ramen-rating"></p>
-    <p id="ramen-comment"></p>
-  </div>
-
-  <h3>Add New Ramen</h3>
-  <form id="ramen-form">
-    <label for="name">Ramen Name:</label>
-    <input type="text" id="name" required><br>
-    <label for="restaurant">Restaurant:</label>
-    <input type="text" id="restaurant" required><br>
-    <label for="rating">Rating:</label>
-    <input type="number" id="rating" min="1" max="5" required><br>
-    <label for="comment">Comment:</label>
-    <textarea id="comment"></textarea><br>
-    <label for="image">Image URL:</label>
-    <input type="text" id="image" required><br>
-    <button type="submit">Add Ramen</button>
-  </form>
-
-  <script src="index.js"></script>
-</body>
-</html>
+    <!-- Form to Add/Edit New Ramen -->
+    x
