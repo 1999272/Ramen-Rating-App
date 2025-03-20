@@ -39,6 +39,6 @@ The user will also be able to update a ramens details by clicking **Edit**
 The user will also be able to delete the ramens from the menue by clicking **Delete**
 
 # License
-This page is licensed under MIT License. See the [LICENSE](https://github.com/1999272/Ramen-Rating-App/blob/main/LICENSE) file for details.
+This page is licensed under MIT License. See the License file for details.
 
 
